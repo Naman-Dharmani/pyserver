@@ -1,0 +1,20 @@
+{
+  "name": "python-execution-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
