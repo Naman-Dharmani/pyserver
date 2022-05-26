@@ -64,7 +64,6 @@ app.post("/upload/", (req, res) => {
 
 app.get("/run/:fileName", (req, res) => {
   const { base: fileName, ext: extName } = path.parse(req.params.fileName)
-  // console.log(fileName, extName)
   fs.exists(`uploads/${fileName}`, (isExists) => {
     if(isExists && extName.toLowerCase() == '.py') {
       let dataToSend;
